@@ -1,0 +1,32 @@
+{
+  "name": "be-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "Tita Muyyana",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "date-fns": "^2.27.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^6.1.3",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^3.1.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "twin-bcrypt": "^2.1.1",
+    "uuid": "^8.3.2"
+  }
+}
